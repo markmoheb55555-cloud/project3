@@ -1,0 +1,5 @@
+﻿MarkProject2.obj : error LNK2005: "int __cdecl MyFunction::ReadNumber(void)" (?ReadNumber@MyFunction@@YAHXZ) already defined in MarkFunctions.obj
+MarkProject2.obj : error LNK2005: "int __cdecl MyFunction::Sum(int,int)" (?Sum@MyFunction@@YAHHH@Z) already defined in MarkFunctions.obj
+MarkProject2.obj : error LNK2005: "void __cdecl MyFunction::Test(void)" (?Test@MyFunction@@YAXXZ) already defined in MarkFunctions.obj
+MarkProject2.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl MyFunction::numberTotext(int)" (?numberTotext@MyFunction@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) already defined in MarkFunctions.obj
+C:\Users\Mark\source\repos\MarkProject2\x64\Debug\MarkProject2.exe : fatal error LNK1169: one or more multiply defined symbols found
